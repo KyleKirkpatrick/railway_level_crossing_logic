@@ -5,7 +5,7 @@ The aim of this project is to design an active system to control gates at a leve
 First, we will define the principal components of the active railway crossing. 
 ### Inputs
 - **Distant train presence** - A sensor will be placed a considerable distance away from the crossing to detect when a train is approaching.
-- **Close train presence** - A sensor will be placed at the crossing to detect when a train is currently present in the crossing (so we can understand when a train has left the crossing). 
+- **Near train presence** - A sensor will be placed at the crossing to detect when a train is currently present in the crossing (so we can understand when a train has left the crossing). 
 - **Gate obstruction detection** - A sensor detects when a vehicle or pedestrian is in the path of the gate.
 - **Manual override controls** - A button control panel could allow a traffic authority to operate the crossing's safety mechanism in special cases such as emergencies or equipment malfunctions. 
 
