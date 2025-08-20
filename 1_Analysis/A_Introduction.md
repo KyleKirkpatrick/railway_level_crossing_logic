@@ -19,7 +19,6 @@ First, we will define the principal components of the active railway crossing.
 Railway crossings are critical points where road and rail traffic intersect, posing significant safety risks if not properly managed. The need for an active system arises from the limitations of passive crossings, which rely solely on signage and user vigilance. The project is set within the broader context of improving public safety, reducing accidents, and ensuring efficient traffic flow.
 
 ### Constraints
-
 #### Technical
 - **Reliability:** The system must operate with high reliability and fail-safe mechanisms to prevent accidents.
 - **Integration:** Compatibility with existing railway signaling and road infrastructure is essential.
