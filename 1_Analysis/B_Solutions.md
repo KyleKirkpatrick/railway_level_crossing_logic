@@ -12,7 +12,7 @@ To make the active rail crossing as affordable as possible and an accessible alt
 - **Breakaway gates**: The physical mechanism of the gate will be designed to "fail gracefully" if it collides with a vehicle while closing. A simple connection will allow the beam to fall off if it closes on a vehicle, ensuring no damage to vehicle or the gate-closing mechanism. This is similar to gates used in many parking garages. This eliminates the need for any gate proximity sensors.
 - **Sequenced warnings**: First the lights will flash, then the bells will chime, warning that the gates will imminently close and providing users time to finish passing through the crossing. The gate can then slowly close, minimising the chance of striking a vehicle.
 
-### Logic
+### Logic - Primitive Option
 
 1. A train triggers the distant sensor, starting the crossing sequence.
 2. Warning lights turn on.
@@ -34,7 +34,7 @@ To further enhance safety and reliability, a high-tech solution can be implement
 - **Remote monitoring and diagnostics**: The crossing system is connected to a central control center, enabling remote health monitoring, predictive maintenance, and rapid response to faults or incidents.
 - **Battery backup and solar power**: Ensure uninterrupted operation during power outages, with solar panels and battery storage for sustainability and resilience.
 
-### Logic
+### Logic - High-tech Safety
 
 1. Distant train detection triggers the crossing sequence.
 2. Warning lights and bells activate; V2I alerts are sent to nearby vehicles.

@@ -11,20 +11,19 @@ We will implement a balanced approach for the railway level crossing logic, inte
 
 ## Compromise Solution Suitability
 
-- **Simplicity:** By relying on proven mechanical barriers and straightforward electronic controls, the system remains easy to understand, operate, and maintain. 
+- **Simplicity:** By relying on proven mechanical barriers and straightforward electronic controls, the system remains easy to understand, operate, and maintain.
 
 - **Safety:** Mechanical barriers provide a clear physical safeguard, while electronic enhancements enable timely and accurate operation. The use of redundant detection methods ensures that the system responds appropriately to approaching trains, minimising the likelihood of accidents.
 
 - **Reliability:** Integrating both mechanical and electronic elements allows the system to function effectively even if one component fails. Redundant detection and manual override capabilities ensure that the crossing remains safe under a wide range of conditions.
 
-
 ## Features to be Implemented
+
 1. **Gate Obstruction Detection**
     - Delay closing the gate if a vehicle or pedestrian is obstructing it.
-    - Sound an alarm to alert the user to exit the crossing. 
+    - Sound an alarm to alert the user to exit the crossing.
 2. **Manual Override and Fail-Safe Modes**
     - Include manual controls for emergency operation.
     - Default to a safe state (gates down, signals active) on system failure.
 3. **Remote Monitoring**
     - Integrate basic telemetry for remote status checks and maintenance alerts.
-
