@@ -39,7 +39,7 @@ Below are four test cases designed to verify the correct operation of the railwa
 - Lights: ON
 - Bells: ON
 - Siren: OFF
-- Gate: CLOSING (or CLOSED if already down)
+- Gate: CLOSE
 
 **Actual Output:**
 -
@@ -87,10 +87,3 @@ Below are four test cases designed to verify the correct operation of the railwa
 -
 
 ---
-
-## Suggested Improvements
-
-- **Sensor Redundancy:** Add redundant sensors to improve reliability and reduce false positives/negatives.
-- **Event Logging:** Implement event logging for diagnostics and incident review.
-- **Remote Monitoring:** Allow remote status monitoring and control for traffic authorities.
-- **Adaptive Alerts:** Adjust alert intensity (lights/bells/siren) based on time of day or traffic density.
