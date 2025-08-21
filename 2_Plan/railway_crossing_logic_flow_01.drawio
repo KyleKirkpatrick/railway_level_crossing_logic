@@ -1,26 +1,37 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="28.1.0">
   <diagram name="Page-1" id="V3SQrgDfa6FOhhbybvv8">
-    <mxGraphModel dx="725" dy="973" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1024" dy="975" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-1" value="&lt;div&gt;Idle State&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-1" value="&lt;div&gt;Idle State&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-2" value="Distant Presence&amp;nbsp;&lt;br&gt;Sensor Detects Train" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-2" value="Distant Presence&amp;nbsp;&lt;br&gt;Sensor Detects Train" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="330" y="40" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-3" value="Crossing Sequence" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-3" value="Crossing Sequence" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="160" y="120" width="510" height="500" as="geometry" />
         </mxCell>
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-4" value="&lt;div&gt;Activate&lt;/div&gt;&lt;div&gt;Signal Lights &amp;amp; Bells&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7c913Dtbr6UqcMSA-ORR-3">
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-4" value="&lt;div&gt;Activate&lt;/div&gt;&lt;div&gt;Signal Lights &amp;amp; Bells&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="7c913Dtbr6UqcMSA-ORR-3" vertex="1">
           <mxGeometry x="170" y="40" width="170" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-5" value="Is the gate clear?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="7c913Dtbr6UqcMSA-ORR-3">
-          <mxGeometry x="168" y="150" width="170" height="80" as="geometry" />
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-5" value="Is the gate clear?" style="rhombus;whiteSpace=wrap;html=1;" parent="7c913Dtbr6UqcMSA-ORR-3" vertex="1">
+          <mxGeometry x="170" y="150" width="170" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7c913Dtbr6UqcMSA-ORR-7" value="Close the Gate" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="7c913Dtbr6UqcMSA-ORR-3">
+        <mxCell id="7c913Dtbr6UqcMSA-ORR-7" value="Close the Gate" style="rounded=0;whiteSpace=wrap;html=1;" parent="7c913Dtbr6UqcMSA-ORR-3" vertex="1">
           <mxGeometry x="170" y="280" width="170" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="U5sWfOwQiCpjHV7h3HyH-1" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="7c913Dtbr6UqcMSA-ORR-3" source="7c913Dtbr6UqcMSA-ORR-5" target="7c913Dtbr6UqcMSA-ORR-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="210" as="sourcePoint" />
+            <mxPoint x="400" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U5sWfOwQiCpjHV7h3HyH-2" value="&lt;div&gt;Yes&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="U5sWfOwQiCpjHV7h3HyH-1">
+          <mxGeometry x="-0.1333" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
