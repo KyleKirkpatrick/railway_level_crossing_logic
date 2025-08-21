@@ -4,7 +4,7 @@
     - When an approaching train is detected, begin the crossing sequence.
 
 2. **Activate Warning Signals**
-    - Turn on warning lights and sound alarms to alert vehicles and pedestrians.
+    - Turn on warning lights and crossing bells to alert vehicles and pedestrians.
 
 3. **Gate Proximity Detection**
     - If a pedestrian or vehicle is obstructing the gate, the gate closing will be delayed. 
