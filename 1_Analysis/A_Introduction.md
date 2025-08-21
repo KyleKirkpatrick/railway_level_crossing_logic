@@ -1,6 +1,6 @@
 # Introduction
 
-The aim of this project is to design an active system to control gates at a level railway crossing. The system will employ sensors and logic to safely control traffic when a train is traveling through the crossing. The system will autonomously lower gates to restrict traffic while a train is passing, and will feature awareness to ensure the gates do not harm vehicles or pedestrians. I aim to keep the implementation simple to make this an affordable and maintainable solution that is safer than a passive railway crossing.
+The aim of this project is to design an active system to control gates at a level railway crossing. The system will employ sensors and logic to safely control traffic when a train is travelling through the crossing. The system will autonomously lower gates to restrict traffic while a train is passing, and will feature awareness to ensure the gates do not harm vehicles or pedestrians. I aim to keep the implementation simple to make this an affordable and maintainable solution that is safer than a passive railway crossing.
 
 ## Parameters
 
