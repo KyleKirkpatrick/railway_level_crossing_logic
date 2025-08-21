@@ -18,4 +18,4 @@ Key features of the project include:
 - Automated control of warning lights and audible alarms.
 - Logic for lowering and raising barriers safely without harming vehicles or pedestrians.
 - State machine design to manage the various operational states of the crossing.
-- Test cases to verify correct behavior under different scenarios.
+- Test cases to verify correct behaviour under different scenarios.
