@@ -29,7 +29,7 @@ Railway crossings are critical points where road and rail traffic intersect, pos
 #### Technical
 
 - **Reliability:** The system must operate with high reliability and fail-safe mechanisms to prevent accidents.
-- **Integration:** Compatibility with existing railway signaling and road infrastructure is essential.
+- **Integration:** Compatibility with existing railway signalling and road infrastructure is essential.
 - **Maintenance:** The design should allow for straightforward maintenance and diagnostics.
 - **Power Supply:** The system must function during power outages, possibly requiring backup power solutions.
 
@@ -45,7 +45,7 @@ Railway crossings are critical points where road and rail traffic intersect, pos
 
 #### Environmental
 
-- **Sustainability:** Selection of materials and components should minimize environmental impact.
+- **Sustainability:** Selection of materials and components should minimise environmental impact.
 - **Noise Pollution:** Audible alerts (bells, sirens) should be effective but not excessively disruptive to nearby residents.
 
 #### Legal
